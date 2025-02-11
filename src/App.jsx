@@ -28,12 +28,6 @@ const App = () => {
     ``;
   }, []);
 
-  const handleScroll = (e, target) => {
-    e.preventDefault();
-    const element = document.getElementById(target);
-    element.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <Router>
       <div>

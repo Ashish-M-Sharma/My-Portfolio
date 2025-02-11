@@ -24,7 +24,7 @@ const Hero = () => {
         {/* Home Section  Starts*/}
         <div className="w-[76%] mx-auto flex flex-col md:flex-row items-center md:items-start gap-5">
           {/* Left Section is here */}
-          <div className="w-full md:w-[70%] flex flex-col items-start gap-2">
+          <div className="w-full md:w-[70%] flex flex-col items-start gap-4 md:text-left">
             <span className="flex items-center gap-2">
               <img
                 className="w-10  rounded-full"
@@ -35,23 +35,19 @@ const Hero = () => {
                 Hi, I am
               </p>
             </span>
-            <span className="font-[inter] font-[700] text-primary leading-[40px] md:leading-[48px] text-[36px] md:text-[48px]">
+            <p className="font-[inter] font-[700] text-primary leading-[40px] md:leading-[48px] text-[36px] md:text-[48px]">
               Ashish Sharma
-            </span>
-            <p className="text-[24px] md:text-[36px] leading-[30px] md:leading-[40px] font-[inter] text-black font-medium">
+            </p>
+            <p className="text-[24px] md:text-[36px] text-left leading-[30px] md:leading-[40px] font-[inter] text-black font-medium">
               I am a Front-End Developer
             </p>
 
             <span className="font-[inter,sans-serif] text-[18px] md:text-[22px] leading-normal text-[#4B5563] text-left">
-              I am a skilled Front-End Developer with expertise in HTML, CSS,
-              JavaScript, and React. Passionate about creating intuitive and
-              responsive user interfaces, I leverage tools like Tailwind CSS to
-              build aesthetically pleasing and efficient web applications. With
-              a strong focus on performance optimization and seamless user
-              experience, I aim to deliver dynamic solutions that engage users
-              and enhance their overall interaction with digital platforms. My
-              goal is to create visually compelling websites that are both
-              functional and enjoyable to navigate.
+              I’m a Front-End Developer skilled in HTML, CSS, JavaScript, and
+              React. I create responsive, user-friendly interfaces using
+              Tailwind CSS, focusing on performance and seamless user
+              experience. My goal is to build visually appealing and functional
+              web applications.
             </span>
 
             {/* Social Media */}
@@ -97,7 +93,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://drive.google.com/file/d/1HpIEaDa4zsJO-mDlF8FuKtYScCAyg_v-/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1filjIowW2hw_p2mmt3JU1PFDkrLzzpge/view?usp=sharing"
                   className="flex text-[16px] md:text-[18px] justify-center items-center gap-1 bg-red-700 text-white hover:scale-95 px-3 py-2 rounded-md transition-transform duration-300 cursor-pointer"
                 >
                   <FaRegFileAlt className="text-[18px] md:text-[20px]" />

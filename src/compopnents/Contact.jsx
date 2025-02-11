@@ -13,8 +13,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="w-full  flex justify-center mt-10 ">
-          <div className="w-1/3  p-6 flex justify-center items-center">
+        <div className="w-full flex justify-center mt-10 ">
+          <div className="hidden md:block w-1/3 p-6 flex justify-center items-center">
             <img src="email.svg" alt="email" className="w-[450px]" />
           </div>
           <div className="w-full md:w-1/2  flex justify-center items-center">
