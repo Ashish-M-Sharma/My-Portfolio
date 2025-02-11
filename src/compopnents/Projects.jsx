@@ -17,7 +17,7 @@ const Projects = () => {
     {
       src: "contact_manager.jpg",
       title: "Contact Manager System",
-      des: "Developed a web-based Contact Manager for efficient contact management with CRUD operations using Axios. Users can add, update, and delete contacts with essential details like name and email through a simple and intuitive interface.",
+      des: "Created a web-based Contact Manager for efficient contact management with CRUD operations using Axios. Users can add, update, and delete contacts with essential details like name and email through a simple and intuitive interface.",
       skills: ["ReactJS", "Tailwind-CSS", "Axios", "JSONserver"],
       Glive: "https://github.com/Ashish-M-Sharma/Contact_Manager",
       link: "https://contact-manager-five-zeta.vercel.app/",
@@ -26,10 +26,10 @@ const Projects = () => {
     {
       src: "code_editor.jpg",
       title: "Code Editor",
-      des: "Developed a Form Validation System with real-time validation using ReactJS and Tailwind CSS. Ensures accurate data entry by validating input fields based on predefined rules before submission, with dynamically rendered results.",
+      des: "Made a real-time code editor with separate panels for HTML, CSS, and JavaScript, to code along with an output panel for live preview. Enables instant rendering of code changes, enhancing development efficiency and user experience.",
       skills: ["HTML", "CSS", "Javascript"],
-      Glive: "https://github.com/Ashish-M-Sharma/Contact_Manager",
-      link: "https://contact-manager-five-zeta.vercel.app/",
+      Glive: "https://github.com/Ashish-M-Sharma/Code-Editor",
+      link: "https://basic-editor.netlify.app/",
     },
   ];
   return (
